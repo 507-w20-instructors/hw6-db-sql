@@ -1,6 +1,6 @@
 import unittest
 import sqlite3
-import hw6_db_sql_solution as hw
+import hw6_db_sql as hw
 
 
 class Test_SQLStatements(unittest.TestCase):
