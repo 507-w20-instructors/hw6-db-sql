@@ -18,14 +18,12 @@ def question0():
     list
         a list of tuples that represent the query result
     '''
-    pass
-    #TODO Implement function
-
     connection = sqlite3.connect("Northwind_small.sqlite")
     cursor = connection.cursor()
     query = "SELECT * FROM Region"
     result = cursor.execute(query).fetchall()
-    print(result)
+    connection.close()
+    return result
 
 def question1():
     ''' Constructs and executes SQL query to retrieve
@@ -225,7 +223,10 @@ def question12():
 ########################  ECs start here  #######################
 #################################################################
 
-# EC1
+#########
+## EC1 ##
+#########
+
 def print_query_result(raw_query_result):
     ''' Pretty prints raw query result
     
@@ -241,8 +242,21 @@ def print_query_result(raw_query_result):
     #TODO Implement function
     pass
 
-# EC2
+
 if __name__ == "__main__":
+    '''WHEN SUBMIT, UNCOMMENT THE TWO LINES OF CODE
+    BELOW IF YOU COMPLETED AND ONLY COMPLETED EC1'''
+
+    # result = question9()
+    # print_query_result(result)
+
+#########
+## EC2 ##
+#########
+
+    '''COMMENT OUT THE ABOVE TWO LINES OF CODE
+    IF YOU COMPLETED BOTH EC1 AND EC2'''
+    
     #TODO Implement interactive program here
     pass
 
