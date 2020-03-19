@@ -245,7 +245,7 @@ def print_query_result(raw_query_result):
 
 if __name__ == "__main__":
     '''WHEN SUBMIT, UNCOMMENT THE TWO LINES OF CODE
-    BELOW IF YOU COMPLETED AND ONLY COMPLETED EC1'''
+    BELOW IF YOU COMPLETED EC1'''
 
     # result = question9()
     # print_query_result(result)
@@ -253,9 +253,6 @@ if __name__ == "__main__":
 #########
 ## EC2 ##
 #########
-
-    '''COMMENT OUT THE ABOVE TWO LINES OF CODE
-    IF YOU COMPLETED BOTH EC1 AND EC2'''
     
     #TODO Implement interactive program here
     pass
